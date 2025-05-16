@@ -48,11 +48,13 @@ The OCR engine is powered by the OmniPage SDK from **Tungsten Automation** (form
 
 Update your `.env` file with project-specific paths:
 
-BASE_FOLDER=data/test
-ENS_SYNTAX_FILE=data/ENS_Syntax_Rosebank.txt
-TAGS_PATH=data/Tags.xlsx
-DOCS_PATH=data/Docs.xlsx
-DOC_TAG_PATH=data/Doc-Tag.xlsx
+| Variable Name       | Default Value                       | Description                                |
+|---------------------|-------------------------------------|--------------------------------------------|
+| `BASE_FOLDER`       | `data/test`                         | Folder containing subfolders of XML files  |
+| `ENS_SYNTAX_FILE`   | `data/ENS_Syntax_Rosebank.txt`      | File defining ENS syntax patterns          |
+| `TAGS_PATH`         | `data/Tags.xlsx`                    | Excel file mapping tags to statuses        |
+| `DOCS_PATH`         | `data/Docs.xlsx`                    | Excel file listing document numbers        |
+| `DOC_TAG_PATH`      | `data/Doc-Tag.xlsx`                 | Excel file mapping tags to actions         |
 
 ✅ Copy `.env.example` to `.env` and modify values as needed.
 
