@@ -1,0 +1,4 @@
+pdf_folder_path = r"F:\OmniPage\py.omni\pdfs"
+tags_path = r"F:\OmniPage\Tags.xlsx"
+docs_path = r"F:\OmniPage\Docs.xlsx"
+ens_file = r"F:\OmniPage\ENS_Syntax_Rosebank.txt"
