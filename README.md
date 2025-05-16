@@ -4,7 +4,7 @@ This project is a Python-based pipeline for OCR-powered tag extraction and docum
 
 The OCR engine is powered by the OmniPage SDK from **Tungsten Automation** (formerly Kofax), a leading provider of document capture and automation technologies.
 
-![OmniPage Cover](omnipage_cover.svg)
+![OmniPage Cover](tungsten_cover.webp)
 ---
 
 ## 📦 Installation & Setup
