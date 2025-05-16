@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# --- Virtual Environment ---
+.venv/
+venv/
+ENV/
+*.env
+
+# --- Environment Variables ---
+.env
+
+# --- Data & Output ---
+*.log
+*.xml
+*.xlsx
+*.xls
+*.sts
+*.bak
+
+# --- IDEs & OS Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
