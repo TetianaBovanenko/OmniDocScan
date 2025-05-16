@@ -25,25 +25,24 @@ The OCR engine is powered by the OmniPage SDK from **Tungsten Automation** (form
 
 ## 🧰 Project Structure
 
-OmniPage/
-├── .venv/                      # Virtual environment (excluded via .gitignore)
-├── data/                       # Data and config files
-│   ├── Tags.xlsx
-│   ├── Docs.xlsx
-│   ├── Doc-Tag.xlsx
-│   ├── ENS_Syntax_Rosebank.txt
-│   └── settings_new.sts
-├── src/
-│   ├── pdf_to_xml.py
-│   ├── pdfprocessor.py
-│   ├── SampleUtils.py
-│   └── doctag_scraping.py
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md
-
----
+| Path                          | Description                                 |
+|-------------------------------|---------------------------------------------|
+| `.venv/`                      | Virtual environment (excluded via `.gitignore`) |
+| `data/`                       | Data and config files                       |
+| `├── Tags.xlsx`               | Tag status reference                        |
+| `├── Docs.xlsx`               | Document numbers for filtering              |
+| `├── Doc-Tag.xlsx`            | Tag-to-document action mapping              |
+| `├── ENS_Syntax_Rosebank.txt`| ENS syntax pattern definitions              |
+| `└── settings_new.sts`        | OmniPage engine settings                    |
+| `src/`                        | Source Python modules                       |
+| `├── pdf_to_xml.py`           | Converts PDFs to XML                        |
+| `├── pdfprocessor.py`         | Initializes OmniPage engine                 |
+| `├── SampleUtils.py`          | Utility functions for OmniPage             |
+| `└── doctag_scraping.py`      | Tag scraping and Excel output               |
+| `.env.example`                | Template for environment configuration      |
+| `.gitignore`                  | Git ignored files list                      |
+| `requirements.txt`            | Python dependencies                        |
+| `README.md`                   | Project documentation                      |
 
 ## ⚙️ Configuration
 
